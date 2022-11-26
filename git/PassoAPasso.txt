@@ -1,0 +1,35 @@
+INICIAR UM REPOSITORIO LOCAL:
+
+>>> git init 
+
+
+
+ADICIONAR UM REPOSITORIO REMOTO:
+
+Para ligar o seu repositório local com um repositório remoto, utilize o comando remote add. Precisamos passar dois parâmetros para esse comando:
+
+>>> git remote add origin https://meu-endereco.com/meu-projeto.git
+
+
+
+CLONAR UM REPOSITORIO REMOTO:
+
+Para fazer download de um projeto basta executar o comando $ git clone, passando o endereço do repositório. Pode ser Github, Gitlab, Bitbucket, etc.
+
+>>> git clone https://meu-endereco.com/meu-projeto.git minha-pasta
+
+
+
+REMOVER REPOSITORIO REMOTO:
+
+Pode ser que você não queira mais o seu local repositório conectado a um repositório remoto. Esse comando não apaga o repositório, apenas desfaz a conexão criada com o comando $ git remote add
+
+>>> git remote rm origin
+
+
+
+ALTERAR ENDEREÇO REPOSITORIO REMOTO:
+
+Já escreveu o endereço de um repositório remoto errado ou migrou ele para outro serviço? Com o comando set-url você será capaz de apenas alterar o endereço sem precisar mexer em mais nada. Precisamos passar dois parâmetros para esse comando:
+
+$ git remote set-url origin http://meu-novo-endereco/meu-projeto.git
