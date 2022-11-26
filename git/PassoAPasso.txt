@@ -1,6 +1,22 @@
+IMPORTANTE!!!
+
+nome: nome que demos ao nosso repositório remoto, como se fosse um atalho para não precisarmos ficar escrevendo a URL toda hora. O padrão é usar o nome origin
+
+branch: ramificação do nosso repositório, o padrão é master
+
+
+
 INICIAR UM REPOSITORIO LOCAL:
 
 >>> git init 
+
+
+
+PRIMEIRO PUSH:
+
+definindo pra qual 
+
+>>> git push --set-upstream origin master
 
 
 
