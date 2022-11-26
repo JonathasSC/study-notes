@@ -1,0 +1,43 @@
+Condições são estruturas que variam a ação dependendo do resultado desejado.
+
+No JavaScript existe as condições :
+
+Aninhadas:
+
+    Quando é possivel aninhar e ir encadeando as condições
+    com geralmente intuito de afunilar cada vez mais o resultado mostrado com base no retorno desejado.
+
+
+Multipla:
+
+    Quando é possível colocar varios resultados para diferentes caminhos e resultados que forem retornados 
+
+
+Sintaxe:
+
+    Aninhada:
+
+        if (paramêtro) {
+            ...
+        }
+
+        else if (paramêtro) {
+            ...
+        }
+
+        else {
+            ...
+        }
+
+    
+    Multipla:
+
+        switch (expressão) {
+            case: 1
+
+            case: 2
+
+            ...
+        }
+
+No switch podemos reparar que temos cases dentro dele, cada case representa um retorno desejado e o que o pragrama deve fazer após isso.

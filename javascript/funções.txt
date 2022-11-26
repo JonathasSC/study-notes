@@ -1,0 +1,38 @@
+FUNÇÕES ou FUNCTIONs ( INGLÊS )
+
+
+São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Toda função pode ter:
+
+    CHAMADA:
+        Pedido feito para a function seja executada
+
+    PARAMETRO:
+        Instruções dadas para a function executar o pedido da chamada
+
+    AÇÃO:
+        Geralmente também é o nome da função
+
+    RETORNO:
+        Retorna o resultado desejado 
+
+
+Uma function pode receber parametros para retornar resultados
+
+um conjunto de código dentro de uma fuction é chamado de bloco
+
+Um bloco é delimitado dentro dos {} de uma function.
+
+Sintaxe:
+
+    function ação(parametro){
+        ...
+    }
+
+    ação() <-- chamada
+
+
+podemos fazer uma função anônima tirando o nome dela, mas para que o método possa funcionar precisamos dar um nome á ela, e geralmente esse nome é o nome da ação que essa função faz.
+
+E opcionalmente podemos colocar dentro do nome um parametro.

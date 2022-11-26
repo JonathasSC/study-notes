@@ -1,0 +1,10 @@
+O que é e para que serve o JavaScript?  
+
+JavaScript é uma linguagem de programação que permite a seu usúario implementar itens complexos á suas páginas web.
+
+Toda vez que uma página web faz mais do que mostrar o conteúdo de maneira estática, uma das capacidades do JavaScript em páginas é por exemplo:
+1. atualizar informações;
+2. funções interativas;
+3. gráficos 3D e 2D animados.
+
+JavaScript é uma linguagem de programação interpretada estruturada, com classificação de alto nível, isso significada que ela se assemelha mais com a linguagem humana, portando é mais compreensivel por novos usúarios.

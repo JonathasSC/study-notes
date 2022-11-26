@@ -1,0 +1,42 @@
+Repetições 
+
+Sistemas de repetições são sistemas com objetivo de repetir inumeras vezes um processo
+com base no paramêtro dado.
+
+Existe alguns tipos de estruturas de repetição
+
+Essas são:
+
+    - Estrutura de repetição com teste lógico no início.
+
+        É feito um teste no inicio de cada repetição para válidar a próxima repetição
+        
+        Sintaxe: 
+
+            while (condição) {
+                ...
+            }
+
+    - Estrutura de repetição com teste lógico no final.
+
+        É feito um teste no inicio de cada repetição para válidar a próxima repetição
+
+        Sintaxe:
+
+            do {
+                ...
+            } while (condição)
+    
+    - Estrutura de repetição com variável de controle.
+
+        O código tem uma predefição limitada de vezes que deve ser executada, e incrimenta isso em uma várivavel, sendo ela o método de validação,
+
+        Sintaxe :
+
+            for (inicio;teste logico;incrimento) {
+                ...
+            }
+
+
+Cada uma pode ser usada em momentos especificos dependendo da sua necessidade.
+

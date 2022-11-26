@@ -1,0 +1,14 @@
+EVENTOS
+
+Evento é tudo aquilo que pode acontecer com o elemento
+seja eles:
+
+- Cliques
+- Visuzalizações
+- Interações com mouse
+- Ausencia de interção do mouse
+- Movimentação da janela
+
+E etc..
+
+

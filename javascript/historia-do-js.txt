@@ -1,0 +1,13 @@
+Como e quando surgiu o JavaScript?
+
+JavaScript é uma Linguagem de Programação, criada por Brendan Eich, a pedido da empresa Netscape, em meados de 1995. 
+
+O JavaScript tinha como nome LiveScript, no entanto, a Netscape não ficou sozinha desenvolvendo o JavaScript, a empresa SUN Microsystems interessou-se por ela e entrou de cabeça no desenvolvimento desta nova linguagem, uma vez que acreditava na ideia inovadora que era o JavaScript.
+
+Inicialmente o JavaScript tinha como função validar formulários HTML, e seu intuito era rodar no servidor, sendo uma linguagem que hoje chamamos de linguagem back-end, mas com passar do tempo isso mudou e ela passou a ser uma linguagem frond-end.
+
+Nos anos 90, a Microsoft criou o JScript, uma dor de cabeça aos desenvolvedores web, a Microsoft vendo o sucesso do JavaScript e vendo que era uma boa ideia e, em vez de ajudar no desenvolvimento da mesma e se tornar parceira, resolveu ir num caminho paralelo e criou a JScript, que rodava apenas no internet Explorer e com isso causou dor de cabeça em varios desenvolvedores web.
+
+Mas, Não obstante, ao perceber este problema, uma empresa chamada ECMA resolveu padronizar a linguagem de modo que pudesse funcionar em todos os navegadores. Desta ideia, nasceu um padrão chamado ECMA, e a linguagem foi batizada de ECMAScript.
+
+Na verdade, atualmente, todos os programas desenvolvidos em JavaScript são, na realidade, programas em ECMAScript. No entanto, por motivos de marketing e como o nome JavaScript já estava muito bem consolidado, o nome permaneceu JavaScript, em todos os lugares, como livros, revistas, sites e outros.

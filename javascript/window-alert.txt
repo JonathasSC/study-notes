@@ -1,0 +1,14 @@
+Método window.alert
+
+O método window.alert() serve para uma caixa de diálogo de aviso com o conteúdo opcionalmente especificiado e um botão OK 
+
+SINTAXE:
+
+window.alert(message);
+
+message é uma string opcional com o texto que você quer exibir na caixa de diálogo, ou, ainda, um objeto a ser
+convertido em string e exibido.
+
+EXEMPLO: 
+
+window.alert("Olá mundo!");

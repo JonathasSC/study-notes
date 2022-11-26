@@ -1,0 +1,48 @@
+#TRATAMENTO DE DADOS 
+
+Nessa aula foi citado os tipos de dados da aula passada,
+como os:
+
+    - number;
+        - infinity;
+        - NaN.
+    - string; 
+    - boolean;
+    - null;
+    - undefined;
+    - object;
+        - array.
+        
+Porém o foco da aula foi em torno dos tipos number & string.
+
+Usando o window.prompt e o window.alert() definimos uma
+variavél chamada de "nome" para receber o valor do nome do
+usuário.
+
+Logo após isso, fizemos uma análise da quantidade de letras do
+nome do usuário, convertemos o nome para totalmente em 
+maiúscula usando o .toUpperCase() e para totalmente 
+minúsculas usando o .toLowerCase(), e mostrando tudo isso na página document.write().
+
+após issso usando o window.prompt() atribuimos 
+dois valores a duas variavéis n1 e n2, e com esses dois valores
+nosso objetivo é soma-los e mostrar o resultado na página com o
+window.alert().
+
+para conseguirmos fazer isso, foi necessario usarmos o 
+.Number() antes do window.prompt() para converter os valores em
+números, pois o window.prompt() de padrão retorna strings.
+
+Ai novamente definimos outra variavél que recebeu a soma
+dos valores recebidos que vamos chamar de "r"
+
+E para mostrar o resultados usando o window.alert(), colocamos
+uma string dentro do window.prompt() e após essa string ainda 
+dentro do () colocamos " + r " 
+
+
+
+
+OBS: todos os códigos criados nessa aula estão disponibilizados
+nesse mesmo diretório.
+

@@ -1,0 +1,159 @@
+Expressões e operadores
+
+No JavaScript existe varias familias de operadores, eles são:
+
+- Operadores de atribuição
+- Operadores de comparação 
+- Operadores aritméticos 
+- Operadores bit a bit
+- Operadores de string 
+- Operadores lógicos
+- Operadores condicional (ternário)
+- Operador vírgula 
+- Operadores unário
+- Operadores relacionais
+- Operadores de Identidade
+
+O JavaScript possui tanto operadores binários quanto unários e um operador ternário, o operador condicional. Um operador binário exige dois operandos, um antes do operador e outro depois:
+
+Nesse curso vamos abordar apenas alguns desses operadores, esses são:
+
+- Operadores aritméticos 
+- Operadores de atribuição
+- Operadores relacionais
+- Operadores lógicos
+- Operadores condicional (ternário)
+
+
+OPERADORES ARITMÉTICOS:
+
+os simbólos são:
+
++ = soma
+- = subtração 
+* = multiplação 
+/ = divisão 
+% = resto da divisão
+** = potenciação
+
+Porém para lidarmos com operadores, devemos lembrar e saber da ordem de precedencia de cada operador,
+multiplicação e divisão são os primeiros a serem feitos em um calculo, logo após vem a subtração e soma.
+
+EX: 
+    Jeito errado:
+
+    5 + 3 / 2 = 4
+
+    Jeito certo:
+
+    5 + 3 / 2 = 6.5
+
+Pela ordem de precedencia, devemos fazer o 3 / 2 primeiro, para que com o resultado seja somado ao número 5.
+
+Mas podemos usar parênteses () para mudar a ordem de precedencia, pois o parênteses precede todos os operadores.
+
+EX: 
+    Vamos usar o mesmo exemplo porém usando os parênteses.
+
+    ( 5 + 3 )/ 2 = 4
+
+    agora sim o resultado será 4, pois os parênteses especifica que o que deve ser feito primeiro deve ser a soma.
+
+
+OPERADORES RELACIONAIS:
+
+Os operadores relacionais como o proprio nome já diz, confere a relação entre os valores,
+conferindo se eles são iguais, menores, maiores, diferentes ou iguais a outro valor.
+
+os simbólos são:
+
+> - maior
+< - menor 
+>= - maior ou igual
+<= - menor ou igual 
+== - se é igual
+!= - se é diferente
+
+
+OPERADORES RELACIONAIS DE IDENTIDADE:
+
+Operadores de identidade conferem o valor e o tipo dos valores dados
+
+Os simbólos são:
+
+== - se o valor é igual
+=== - se o tipo é igual
+
+EX:
+    5 === "5" = false, pois o tipo do segundo valor é string, e do primeiro é inteiro
+
+    5 == 5 = true, pois o tipo de ambos os valores é inteiro
+
+    5 == 5 = true, pois ambos os valores são em sua essência são 5.
+
+
+OPERADORES LÓGICOS:
+
+Os operadores lógicos são dividos em operadores de negação, conjunção e disjunção.
+
+Os simbólos são:
+
+! - negação
+&& - conjunção
+|| - disjunção
+
+
+Negação (não):
+Confere se algo é ou não verdadeira
+É um operador unário, que trabalha com apenas um valor, TRUE ou FALSE em sua sintaxe.
+
+EX:
+
+! true = false -> não verdadeiro = false
+! false = true -> não falso = verdadeiro
+
+
+Conjunção:
+Confere se os dois eventos desejados estão ocorrendo.
+É um operador binário, trabalhando com FALSE e TRUE em sua sintaxe.
+
+EX:
+
+true && true = true - se ambos os eventos estão ocorrendo = true
+false && true = false - se um evento está ocorrendo e outro não = false
+true && false = false - se um evento está ocorrendo e outro não = false
+false && false = false - se nenhum evento está ocorrendo = false
+
+Disjunção:
+Confere se pelo menos um dos dois eventos desejados estão ocorrendo.
+É um operador binário, trabalhando com FALSE e TRUE em sua sintaxe.
+
+true || true = Se ambos os eventos acontecerem = true
+false || true = Se apenas um evento acontecer = true
+true || false = Se apenas um evento acontecer = true
+false || false = Se nenhum evento acontecer = false
+
+
+OPERADOR TERNÁRIO:
+Funciona para dar diferentes retornos dependendo do resultado do evento desejado.
+
+EX:
+var média = 5.5
+média > 7 ? 'aprovado' : 'reprovado' - se a media for maior que 7, retorne 'aprovado' senão 'reprovado'
+
+output:
+'reprovado'
+
+
+ORDEM DE PRECEDÊNCIA DE TODOS OS OPERADORES:
+
+Em uma suposta expressão a ordem de precedência é essa:"
+
+Operadores aritméticos
+(), **, /, *, +, -.
+
+Operadores relacionais:
+<, >, >=, <=.
+
+Operadores lógicos:
+!, &&, ||

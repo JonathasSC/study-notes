@@ -1,0 +1,54 @@
+DOM 
+
+DOM é a sigla para Document Object Model ( Modelo de objetos para documentos )
+O DOM é uma representação orientada a objetos da página da web, que pode ser modificada com uma linguagem de script como JavaScript.
+
+
+Árvore DOM:
+
+É um modelo de estrutura para indicar diferentes elementos de uma página.
+toda árvore começa da raiz, e no caso a nossa raiz seria o window
+
+WINDOW 
+E nada mais que a propria janela do navegador.
+
+Dentro do window tem varios objetos e dentro deses objetos existem varios objetos childs (filhos), vejamos:
+
+location:
+que diz onde está a localização do site
+
+document:
+que diz qual o documento sendo exibido atualmente
+
+history
+que diz a historia de onde você veio e para onde está indo dentro do site
+
+exemplo de árvore hierarquica de um site
+
+document:
+    html:
+        head:
+            meta:
+            title:
+            etc...
+        body:
+            h1
+            p
+            div
+            etc...
+
+document é aqui o objeto parent( pai ) do objeto html
+html por sua vez é o child do document e o parent do head e body.
+
+
+Técnicas para acessar elementos usando DOM usando:
+
+TagName
+
+ID 
+
+Name 
+
+ClassName 
+
+querySelector
