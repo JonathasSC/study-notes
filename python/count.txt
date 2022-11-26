@@ -1,0 +1,15 @@
+Método count() retorna a quantidade de vezes que um elemento aparece numa string ou lista
+
+sintaxe:
+
+    list.count(element)
+
+Exemplo:
+
+    list = [1,2,2,4,5,2,6]
+
+    print(list.count(2))
+
+
+    resposta:
+    >> 3

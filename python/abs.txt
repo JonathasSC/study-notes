@@ -1,0 +1,15 @@
+função abs() retorna um valor absoluto:
+
+O que são valores absolutos?
+
+    Valores absolutos são valores acima de 0 que não são negativos.
+
+
+Sintaxe:
+
+    numero = -20
+    numero_absoluto = abs(numero)
+    print(numero_absoluto)
+
+    resultado:
+    >> 20

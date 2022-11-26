@@ -1,0 +1,16 @@
+O método string rjust() retorna uma string justificada à direita de uma determinada largura mínima.
+
+Sintaxe:
+
+    print(string.rjust(tamanho,caractere_desejado))
+
+Exemplo:
+
+    palavra = 'Olá'
+
+    print(palavra.rjust(5,'-'))
+
+
+    resultado:
+
+    >> ---Olá 
