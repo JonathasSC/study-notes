@@ -5,7 +5,7 @@ abra o terminal e coloque o terminal nessa pasta usando o cd /caminho/
 
 após isso execute:
 
->>> python -m env (nome da env que desejar)
+>>> python -m venv (nome da env que desejar)
 
 para ativar seu ambiente virtual basta digitar no mesmo terminal:
 
