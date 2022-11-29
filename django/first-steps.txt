@@ -1,0 +1,16 @@
+Primeiros passos:
+
+primeiramente devemos criar um ambiente virtual para separarmos nossos pacotes do
+ambiente externo, caso precise de ajuda olhe o arquivo ambiente-virtual na raiz
+desse arquivo.
+
+Após isso abrimos um terminal e damos os seguintes comandos:
+
+para instalar o django no ambiente virtual:
+>>> pip install django 
+
+Para começar um projeto:
+>>> django-admin startproject {nome do projeto}
+
+Para dar rodar o servidor local:
+>>> python manage.py runserver
