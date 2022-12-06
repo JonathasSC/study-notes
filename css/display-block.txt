@@ -1,0 +1,11 @@
+display: block;
+
+
+Essa propriedade tem esses comportamento:
+
+	1- O elemento ocupa a linha toda, não é possivel ter um elemento ao lado de um com display block.
+
+	2- Conseguimos definir largura e altura
+
+	3- É possivel colocar um elemento todo para a direita, outro para esquerda usando o margin-left ou margin-right,
+	ou colocar no centro usando a combinação dos dois no auto.

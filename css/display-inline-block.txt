@@ -1,0 +1,7 @@
+display: inline-block;
+
+Possui os seguintes comportamentos:
+
+	1 - Conseguimos definir largura e altura;
+	
+	2 - Faz o elemento ter comportamentos parecidos com palavras

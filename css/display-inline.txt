@@ -1,0 +1,8 @@
+display: inline;
+
+
+possui os seguintes comportamentos:
+
+	1 - Impossibilita que o elemento tenha altura e largura definida.
+
+	2 - Faz o elemento ter comportamentos de palavras
