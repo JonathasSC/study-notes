@@ -104,4 +104,3 @@ entre eles existe os que buscam os elementos por suas identificações, com esse
 			# Resultado:
 
 				NodeList(3)[input.input-exemplo,input.input-exemplo,input.input-exemplo]
-
