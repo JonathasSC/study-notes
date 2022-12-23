@@ -66,5 +66,42 @@ entre eles existe os que buscam os elementos por suas identificações, com esse
 
 	querySelector
 
+		Retorna o primeiro elemento que se equipara ao seletor CSS passado.
+		Deve usar o seletor seguindo a sintaxe CSS (.(class) ou #(id)).
+
+			~ HTML: 
+
+			<input class="input-exemplo"/>
+			<input class="input-exemplo"/>
+			<input class="input-exemplo"/>
+
+
+			~  JavaScript	
+
+				input = document.querySelector('.input-exemplo')
+				console.log(input)
+
+			# Resultado:
+
+				<input class="input-exemplo"/>
+
+
 	querySelectorAll
+
+		Retorna um NodeList com todos os elementos que se equiparam ao seletor CSS passado.
+	
+			~ HTML: 
+
+			<input class="input-exemplo"/>
+			<input class="input-exemplo"/>
+			<input class="input-exemplo"/>
+
+			~  JavaScript	
+
+				input = document.querySelectorAll('.input-exemplo')
+				console.log(input)
+
+			# Resultado:
+
+				NodeList(3)[input.input-exemplo,input.input-exemplo,input.input-exemplo]
 
