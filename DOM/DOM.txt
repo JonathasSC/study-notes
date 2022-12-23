@@ -41,14 +41,33 @@ document é aqui o objeto parent( pai ) do objeto html
 html por sua vez é o child do document e o parent do head e body.
 
 
-Técnicas para acessar elementos usando DOM usando:
+Métodos:
 
-TagName
+O DOM possui muitos métodos, eles que fazem a ligação entre os elementos e os eventos
+entre eles existe os que buscam os elementos por suas identificações, com esse:
 
-ID 
 
-Name 
+	getElementById:
 
-ClassName 
+		Identificador unico, deve ser usado para apenas um elemento na página.
 
-querySelector
+		Sintaxe:
+
+			~ HTML:
+			
+			<input id="input-nome/>
+
+		 	~ JavaScript
+			
+			const input = document.getElementById('input-nome')
+
+	Name 
+
+	TagName:
+
+	ClassName 
+
+	querySelector
+
+	querySelectorAll
+

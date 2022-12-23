@@ -1,0 +1,70 @@
+Métodos:
+
+O DOM possui muitos métodos, eles que fazem a ligação entre os elementos e os eventos
+entre eles existe os que buscam os elementos por suas identificações, com esse:
+
+
+	getElementById()
+
+		Retorna o elemento cque estiver contendo o nome do ID passado.
+		Como ID são Identificadores unicos, é muito util para pegar apenas o elemento desejado.
+
+		Sintaxe:
+
+			~ HTML:
+			
+				<input id="input-nome"/>
+
+		 	~ JavaScript
+			
+				const input = document.getElementById('input-nome')
+				console.log(input)
+
+			# Resultado:
+
+				<input id="input-nome"/>
+
+	getElementByClassName():
+
+		Retorna um HTMLCollection de todos os elementos que estiverem contendo o nome da classe passada.
+
+		Sintaxe:
+
+			~ HTML:
+			
+				<input class="inputs"/>
+				<input class="inputs"/>
+				<input class="inputs"/>
+
+		 	~ JavaScript
+			
+				const input = document.getElementById('input-nome')
+				console.log(input)
+
+			# Resultado:
+
+				HTMLCollection(3) [input.inputs,input.inputs,input.inputs]
+
+	getElementByTagName():
+
+		Na mesma maneira do método acima, ele também retorna uma HTMLCollection mas com uma diferença: esse método retorna todos elementos contendo a tag name passada.
+
+			~ HTML:
+
+				<input/>
+				<input/>
+				<input/>
+
+			~  JavaScript	
+
+				input = document.getElementByTagName('input')
+				console.log(input)
+
+			# Resultado:
+
+				HTMLCollection(3) [input,input,input]
+
+	querySelector
+
+	querySelectorAll
+
