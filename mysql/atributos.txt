@@ -1,0 +1,11 @@
+ATRIBUTOS:
+
+	-Descrevem caracteristicas da entidade;
+
+	-Possue un tipo de dados (dominio) com nome e valor especifico.
+
+	-São representados por uma ramificação com ponta redonda com seu proprio nome no modelo conceitual.
+
+	Exemplo: 
+
+		Fabricante, Modelo, Placa, Cor e etc

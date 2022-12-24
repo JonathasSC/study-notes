@@ -8,10 +8,8 @@ ENTIDADES:
 
 	-São substantivos que representam de forma clara e objetiva sua função;
 
+	representadas por um retângulo no modelo conceitual.
+
 	Exemplo:
 
 		Cliente, Aluno, Livro, Venda, Produto, Estoque, Catálogo e etc.
-
-
-	Entidades são representadas por um retângulo no modelo conceitual.
-	
