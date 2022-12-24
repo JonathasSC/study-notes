@@ -1,0 +1,17 @@
+ENTIDADES: 
+
+	-Algo de importancia para um usuário ou organização que precisa ser representado em um banco de dados;
+
+	-Representa um tem, um tópico ou conceito de négocio;
+
+	-Pode ser existência física ou abstrata;
+
+	-São substantivos que representam de forma clara e objetiva sua função;
+
+	Exemplo:
+
+		Cliente, Aluno, Livro, Venda, Produto, Estoque, Catálogo e etc.
+
+
+	Entidades são representadas por um retângulo no modelo conceitual.
+	
