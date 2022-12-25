@@ -14,4 +14,16 @@ CHAVE PRIMÁRIA;
 	- Identifica de forma exclusiva os registros na tabela, não podendo ter repetições nem valor nulo;
 
 	- forma de declarar: PRIMARY KEY (PK);
-	
+
+	- Não é possivel mudar o valor da chave primária
+
+
+CHAVE ESTRANGEIRA;
+
+	- Atributo( coluna ) de entidade ( tabela ) que estabelece um relacionamento com a chave primária de outra tabela.
+
+	- É a partir da chave estrangeira que sabemos com qual registro em outra tabela um registro está relacionado.
+
+	- O valor da chave estrangeira deve corresponder ao mesmo da chave primária associada.
+
+	- Uma chave estrangeira deve referenciar uma chave primária ou uma coluna( atributo ) de chave única.
