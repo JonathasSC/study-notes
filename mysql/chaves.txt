@@ -1,0 +1,12 @@
+CHAVE CANDIDATA:
+
+	- Atributo com potencial para se tornar uma chave primária, pois é um valor unico de cada individuo.
+
+		Exemplo: 
+
+			CPF, RG, Numero de matricula, Código de produto.
+
+
+CHAVE PRIMÁRIA;
+
+	Chave candidata escolhida para ser a principal chave na relação
