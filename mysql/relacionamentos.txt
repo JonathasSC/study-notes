@@ -1,0 +1,10 @@
+RELACIONAMENTOS:
+
+	- Conectam ou associam as entidades entre si;
+
+	- Relacionam os dados entre as entidades;
+
+	- Combina duas ou mais entidades (tabelas) para obter informações dos dados contidos nelas,
+	através dos atributos.
+
+	- É simbolizado por um losango no modelo conceitual
