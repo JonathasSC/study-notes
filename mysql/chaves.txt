@@ -9,4 +9,9 @@ CHAVE CANDIDATA:
 
 CHAVE PRIMÁRIA;
 
-	Chave candidata escolhida para ser a principal chave na relação
+	- Chave candidata escolhida para ser a principal chave na relação
+
+	- Identifica de forma exclusiva os registros na tabela, não podendo ter repetições nem valor nulo;
+
+	- forma de declarar: PRIMARY KEY (PK);
+	
