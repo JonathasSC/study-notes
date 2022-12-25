@@ -1,0 +1,24 @@
+Todos os comandos são feitos dentro de uma query ( área de criação de códigos )
+no MySQL Workbench
+
+
+CRIANDO BANCO DE DADOS:
+
+>>> create database nome_do_banco;
+
+Esse comando serve para criar um banco de dados
+
+
+MOSTRANDO BANCO DE DADOS EXISTENTE: 
+
+>>> show databases;
+
+
+SELECIONAR UM BANCO DE DADOS ESPECÍFICO:
+
+>>> use nome_do_banco;
+
+
+VIZUALIZAR O BANCO DE DADOS SELECIONADO:
+
+>>> select database();
