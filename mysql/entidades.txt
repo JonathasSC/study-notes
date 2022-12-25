@@ -1,12 +1,12 @@
 ENTIDADES: 
 
-	-Algo de importancia para um usuário ou organização que precisa ser representado em um banco de dados;
+	- Algo de importancia para um usuário ou organização que precisa ser representado em um banco de dados;
 
-	-Representa um tem, um tópico ou conceito de négocio;
+	- Representa um tem, um tópico ou conceito de négocio;
 
-	-Pode ser existência física ou abstrata;
+	- Pode ser existência física ou abstrata;
 
-	-São substantivos que representam de forma clara e objetiva sua função;
+	- São substantivos que representam de forma clara e objetiva sua função;
 
 	representadas por um retângulo no modelo conceitual.
 
