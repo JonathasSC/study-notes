@@ -1,0 +1,7 @@
+Quando esse erro ocorrer ao tentar baixar um pacote
+
+Invés de usar:
+>>> pip install (nome do pacote)
+
+tente usar:
+>>> python -m pip install (nome do pacote)
