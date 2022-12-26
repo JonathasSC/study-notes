@@ -1,0 +1,45 @@
+VIZUALIZAR TODAS AS LINHAS E COLUNAS DE UMA TABELA:
+
+o * significa "todos"
+
+>>> select * from nome_da_tabela;
+
+
+
+VIZUALIZANDO COLUNAS ESPECIFICAS DE UMA TABELA:
+
+deve separar os nomes das colunas desejadas por virgula.
+
+>>> select nome_da_coluna1 , nome_da_coluna2 from nome_da_tabela;
+
+
+
+VIZUALIZANDO COLUNAS ESPECIFICAS E DANDO APELIDO PARA ELAS:
+
+O apelido dado deve estar entre aspas duplas.
+
+>>> select 
+		nome_da_coluna1 as "column1", 
+		nome_da_coluna2 as "column2"
+	from nome_da_tabela;
+
+
+
+VIZUALIZANDO UMA QUANTIDADE ESPECIFICA DE LINHAS DE TODAS AS TABELAS:
+
+vai mostrar apenas as duas primeiras linhas de todas as tabelas.
+
+>>> select * from nome_da_tabela limit 2;
+
+
+
+ORDENANDO UMA TABELA APARTIR DE UMA COLUNA ESPECIFICA:
+
+vai colocar os valores da coluna desejada em ordem crescente, de cima pra baixo;
+
+>>> select * from nome_da_tabela order by nome_da_coluna;
+
+
+vai colocar os valores da coluna desejada em ordem decrescente, de cima pra baixo;
+
+>>> select * from nome_da_tabela order by nome_da_coluna desc;
