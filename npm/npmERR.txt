@@ -1,0 +1,12 @@
+Ao tentar instalar alguma dependencia com npm install, posso me deparar com
+problemas e bugs aparentemente sem motivos, 
+foi o caso do "npm ERR! code ERESOLVE"
+
+Isso é um bug da versão 7.x do npm, para resolver basta adicionar:
+--legacy-peer-deps
+
+No final do npm install {dependencia}
+
+Exemplo:
+
+>>> npm install styled-components --legacy-peer-deps
