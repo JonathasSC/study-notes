@@ -1,0 +1,28 @@
+para iniciar o projeto com expo 
+
+pasta no terminal dentro do diretorio desejado e rodar:
+
+>>> expo init NOME_DO_PROJETO
+
+Aguarde o carregamento de todas as dependencias.
+
+
+
+Para iniciar o app no emulador, abra-o no Android Studio.
+
+Após abri-lo, no terminal do diretorio onde está localizado o projeto,
+digite os seguintes comandos:
+
+para entrar na pasta do projeto:
+
+>>> cd NOME_DO_PROJETO
+
+para rodar no emulador:
+
+>>> npx expo start
+ou 
+>>> expo start
+
+Quando for pedido, digite 'a' para confirmar no 
+emulador android.
+
