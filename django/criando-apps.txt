@@ -1,0 +1,6 @@
+para criar um app basta abrir o terminal na raiz do projeto e rodar o comando:
+
+>>> python manage.py startapp {nome do app}
+
+logo após isso, acesse o settings.py dentro do core do projeto
+e na constante INSTALLED_APPS, adicione no final o nome do seu app criado.

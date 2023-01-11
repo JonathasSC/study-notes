@@ -10,7 +10,7 @@ para instalar o django no ambiente virtual:
 >>> pip install django 
 
 Para começar um projeto:
->>> django-admin startproject {nome do projeto}
+>>> django-admin startproject {nome do projeto} . 
 
 Para dar rodar o servidor local:
 >>> python manage.py runserver
