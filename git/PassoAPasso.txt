@@ -4,7 +4,7 @@ nome: nome que demos ao nosso repositório remoto, como se fosse um atalho para 
 
 branch: ramificação do nosso repositório, o padrão é master
 
-
+=============================================
 
 INICIAR UM REPOSITORIO LOCAL:
 
