@@ -1,0 +1,14 @@
+Para criar uma URL de um app existente devemos seguir esses passos:
+
+1. Acesse o arquivo views.py do app criado.
+
+2. Crie uma função cujo o parametro é (request)
+
+3. Para ver se funcionou, use return para retornar algo escrito na tela, pode usar o HttpResponse
+mas para isso deve importa-lo com "from django.http import HttpResponse"
+
+4. Crie um arquivo dentro da pasta do app chamado urls.py e acesse esse arquivo criado 
+
+6. faça 2 importações com (from . import views) e (from . import views)
+
+7. 
