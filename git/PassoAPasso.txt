@@ -4,13 +4,13 @@ nome: nome que demos ao nosso repositório remoto, como se fosse um atalho para 
 
 branch: ramificação do nosso repositório, o padrão é master
 
-
+=============================================
 
 INICIAR UM REPOSITORIO LOCAL:
 
 >>> git init 
 
-
+=============================================
 
 PRIMEIRO PUSH:
 
@@ -18,7 +18,11 @@ definindo pra qual
 
 >>> git push --set-upstream origin master
 
+caso seja sua primeira vez fazendo um push e sua conta
+github não esteja sincronizada, vai ser pedido seu
+usuário e um token de acesso que pode ser criado em sua conta
 
+=============================================
 
 ADICIONAR UM REPOSITORIO REMOTO:
 
@@ -26,7 +30,7 @@ Para ligar o seu repositório local com um repositório remoto, utilize o comand
 
 >>> git remote add origin https://meu-endereco.com/meu-projeto.git
 
-
+=============================================
 
 CLONAR UM REPOSITORIO REMOTO:
 
@@ -34,7 +38,7 @@ Para fazer download de um projeto basta executar o comando $ git clone, passando
 
 >>> git clone https://meu-endereco.com/meu-projeto.git minha-pasta
 
-
+=============================================
 
 REMOVER REPOSITORIO REMOTO:
 
@@ -42,7 +46,7 @@ Pode ser que você não queira mais o seu local repositório conectado a um repo
 
 >>> git remote rm origin
 
-
+=============================================
 
 ALTERAR ENDEREÇO REPOSITORIO REMOTO:
 
