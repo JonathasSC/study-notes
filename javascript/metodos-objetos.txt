@@ -1,0 +1,4 @@
+MÉTODOS EM OBJETOS
+
+Métodos em funções são funções atribuidas a algum item do objeto.
+
