@@ -1,0 +1,20 @@
+Para ter arquivos ignorados pelo commit do git, é necessario criar um arquivo
+.gitignore 
+
+abra o git bash na raiz do repositório e digite:
+
+>>> touch .gitignore
+
+e para ignorar arquivos basta colocar o nome desse arquivo dentro do arquivo 
+.gitignore
+
+Exemplo:
+
+Eu desejo ignorar o arquivo venv do meu git para fazer o push para o github.
+
+- main
+- venv
+- frontend
+- .gitignore
+
+basta eu acessar o arquivo de texto .gitignore e digitar "venv"
