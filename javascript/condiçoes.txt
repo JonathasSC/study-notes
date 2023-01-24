@@ -29,7 +29,6 @@ Sintaxe:
             ...
         }
 
-    
     Multipla:
 
         switch (expressão) {
