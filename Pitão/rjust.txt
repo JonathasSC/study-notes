@@ -5,7 +5,7 @@ Sintaxe:
 
 Exemplo:
 
-    palavra = 'Olá'
+    palavra = 'Olá
 
     print(palavra.rjust(5,'-'))
 
