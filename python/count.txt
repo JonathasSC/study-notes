@@ -10,6 +10,5 @@ Exemplo:
 
     print(list.count(2))
 
-
     resposta:
     >> 3
