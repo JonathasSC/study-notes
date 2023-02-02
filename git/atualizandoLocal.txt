@@ -1,0 +1,7 @@
+Atualizando o repositório local baseado na versão remota, usando git pull.
+
+O git pull obtém (git fetch) os novos commits e merges (git merge) desse branch e os coloca em seu branch local.
+
+comando:
+
+>>> git pull 
