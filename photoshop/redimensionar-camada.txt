@@ -1,0 +1,12 @@
+para redimensionar livremente:
+
+Com atalho: 
+
+1. selecione a camada desejada:
+2. clique CTRL + T
+
+Sem atalho:
+
+1. selecionar a camada 
+2. ir no menu fixo EDITAR
+3. selecionar "transformação livre"
