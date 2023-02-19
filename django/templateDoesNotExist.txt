@@ -1,0 +1,20 @@
+Bug do templateDoesNotExist:
+
+Em alguns casos, o django não irá configurar o diretorio "templates" como base para seus templates, então será necessario definir isso manualmente.
+
+para resolver, siga esses procedimentos:
+
+1. Vá em settings.py
+
+2. Procure a área TEMPLATES 
+
+3. em TEMPLATES [{ 'DIRS': [] }] coloque o caminho da sua pasta templates entre aspas dentro dos colchetes.
+
+4. deve ficar assim: 
+[{ 'DIRS': ['C:caminho/do/seu/diretorio/templates'] }]
+
+5. antes das aspas do caminho, coloque um 'r', assim:
+[{ 'DIRS': [r'C:caminho/do/seu/diretorio/templates'] }]
+
+
+Pronto, django configurado.
