@@ -1,0 +1,5 @@
+Caso os arquivos estaticos do seu projeto não esteja carregando, siga essas indicações:
+
+1. Abra o settings.py e confira em INSTALLED_APPS = [] se os apps que você criou está na lista, caso não, coloque-os no final da lista.
+
+2. Ainda em settings, confira se STATIC_URL está recebendo o caminho 'static/', caso não, defina-o manualmente.

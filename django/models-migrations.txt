@@ -1,0 +1,19 @@
+O que é model? 
+
+Model é o arquivo que contém uma estrutura desejada para o banco de dados, como: 
+cada parte desse arquivo é um campo no banco de dados
+
+de forma grosseira, models é um modelo de banco de dados formatado em python, que o django irá converter em comandos para o banco de dados.
+
+
+O que é migrations?
+
+migrations é a conversão do arquivo estruturado em python para um arquivo estruturado no formato do banco de dados.
+
+para fazer a conversão desse arquivo é necessario rodar o 
+>>> python ./manage.py makemigrations 
+
+esse comando irá formatar a estrutura formatada em python em uma propria para o banco de dados e irá guarda-la na pasta 'migrations'.
+
+Com a conversão já feita, é necessario rodar os comandos diretamente no banco de dados, então basta rodar:
+>>> python ./manage.py migrate

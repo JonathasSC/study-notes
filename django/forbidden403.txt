@@ -1,0 +1,14 @@
+Forbidden (403) CSRF verification failed. Request aborted 
+
+Esse erro significa que o csrf_token está sendo passado incorretamente, para corrigir, podemos tentar algumas coisas:
+
+1. certifique que seu navegador estar aceitando cookies.
+
+2. certifique que seus templates de formularios do tipo 'POST' estão usando o
+{% csrf_token %}
+
+3. caso esteja tudo certo, dentro dos arquivos das views do seu projeto, importe csrf_exempt 
+assim:
+from django.views.decorators.csrf import csrf_exempt
+
+e acima das views referentes aos formularios do tipo 'POST' coloque @csrf_exempt, e você não irá precisar usar o csrf_token no template html
