@@ -15,4 +15,3 @@ Eu desejo ignorar o arquivo venv do meu git para fazer o push para o github.
 - main
 - venv
 - frontend
-- .gitignore
