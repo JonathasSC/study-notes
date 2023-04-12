@@ -1,0 +1,10 @@
+GIT COMMIT -M "MESSAGE"
+
+Para gravar os arquivos e suas modificações, devemos primeiro especifica-lo com "git add", como dito em 
+"consolidando.txt"
+
+após isso, use:
+
+>>> git commit -m "<Mensagem qualquer>"
+
+O -m é necessario para associar uma mensagem a seguir do commit, para facilitar o encontro e diferenciação das versões do seu mesmo arquivo.
