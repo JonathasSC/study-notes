@@ -1,0 +1,13 @@
+GIT ADD 
+
+Antes de efetuar um commit, é necessario especificar quais arquivos vão estar presente no commit:
+usando o comando:
+
+>>> git add <nome do arquivo>;
+
+=============================================
+
+Caso queira especificar que todos os arquivos presentes/modificados devem
+estar presente no commit, use:
+
+>>> git add .
