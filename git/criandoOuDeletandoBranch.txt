@@ -1,10 +1,12 @@
+CRIANDO E DELETANDO BRANCHS
+
 Para criar uma branch Local:
 >>> git checkout -b NomeDaNovaBranch
 
 Para coloca-la no remoto:
 >>> git push --set-upstream origin NomeDaNovaBranch
 
----
+=============================================
 
 Para deletar, mude-se para outra branch com o comando:
 >>> git checkout OutraBranch

@@ -1,3 +1,6 @@
+.GITIGNORE
+
+
 Para ter arquivos ignorados pelo commit do git, é necessario criar um arquivo
 .gitignore 
 
