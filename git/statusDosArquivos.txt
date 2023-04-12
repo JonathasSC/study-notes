@@ -1,0 +1,11 @@
+GIT STATUS
+
+Um arquivo dentro do dirétorio pode ter dois estados,
+monitorado e não monitorado.
+
+Os arquivos não monitorados são aqueles que não foram consolidados com "git add"
+e estão presentes em algum commit anterior.
+
+Para visualizar o estado dos arquivos dentro do seu diretorio, use:
+
+>>> git status
