@@ -1,0 +1,8 @@
+Para ativar as linhas guias você pode clicar Ctrl + R 
+
+para usar as guias, puxe-as das reguas superior para guias na horizontal
+e para guias verticais puxe-as das reguas laterais
+para guias diagonais, puxe-as do encontro das duas reguas.
+
+Para ocultar as reguas da tela sem deleta-las use:
+Ctrl + ;		
