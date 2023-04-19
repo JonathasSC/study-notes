@@ -1,10 +1,10 @@
 OBJETOS - DICIONARIOS 
 
-É uma estrutura variavel compost
-a, capaz de armazenar varios tipos de dados em uma unica estrutura.
+É uma estrutura variavel composta,
+capaz de armazenar varios tipos de dados em uma unica estrutura.
 Eles tem identificares literais.
 
-Declara-se com {}
+Declara-se com: {}
 
 Dentro dos objetos é possivel colocar funções declarando elas dentro do objeto com nome(parametro){bloco}
 

@@ -7,3 +7,7 @@ Toda vez que uma página web faz mais do que mostrar o conteúdo de maneira est�
 2. funções interativas;
 3. gráficos 3D e 2D animados.
 JavaScript é uma linguagem de programação interpretada estruturada, com classificação de alto nível, isso significada que ela se assemelha mais com a linguagem humana, portando é mais compreensivel por novos usúarios.
+
+JavaScript é uma linguagem de tipagem dinamica, seu interpretador consegue identificar o tipo das variaveis sem precisar de declaração previa.
+
+se não declarada, não existe diferenciação entre numeros decimais e inteiros, ambos são tratados como "number".
