@@ -1,0 +1,22 @@
+Tagged Template string
+
+
+São template strings com marcações ou tags, com elas você tem a possibilidade de 
+modificar a saida dos template strings usando uma função.
+
+Exemplo:
+
+function tag (strings,...values){
+	console.log(strings[0]);
+	console.log(strings[1]);
+	console.log(values[0]);
+	console.log(values[1]);
+
+	return 'Complete.'
+}
+
+tag`Hello ${20 * 2}world ${10 + 20}`
+
+
+No exemplo acima, a função trata que o argumento é um array de literais, "hello" e "world".
+E o segundo argumento é uma array com os resultados das expressões "20 * 2" e "10 + 20".
