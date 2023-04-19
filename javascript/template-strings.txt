@@ -1,0 +1,26 @@
+Templates Strings
+
+
+É basicamente uma nova forma de criar strings e deixar seu código mais legível.
+
+Templates strings são strings que permitem expressões embutidadas,
+podendo utilizar string multi-linhas sem necessidade de escape sequence \n, bastando apenas pular a linha no código em si, e interpolação de string com elas.
+
+Para criar uma template string, no lugar de aspas('') ou aspas duplas("")
+utilize acentos graves (``), assim:
+
+`Essa é uma template string` 
+
+`Essa é uma template 
+string multi-linha`
+
+
+também existe uma facilidade para criar interpolação de expressões dentro dessas strings
+agora, basta colocar um ${} encapsulando a expressão, ou variavel.
+
+Assim:
+
+`O resultado da soma dos dois valores é ${num1 + num2}`
+
+output: 
+O resultado da soma dos dois valores é 12
