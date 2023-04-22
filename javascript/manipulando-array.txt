@@ -1,0 +1,41 @@
+MANIPULANDO CONTEUDOS DE ARRAYS
+
+Método unshift()
+Para inserir um valor no inicio da array
+
+sintaxe:
+	{nomeDaArray}.unshift({valorDesejado});
+
+Exemplo:
+	let listaDeNumeros = [1,2,3,4,5,6,7,8]
+	listaDeNumeros.unshift(0)
+	console.log(listaDeNumeros)
+
+	resultado:
+	[0,1,2,3,4,5,6,7,8]
+
+=============================================
+
+Método splice();
+Altera o conteúdo de uma lista, adicionando novos elementos enquanto remove os antigos
+parametros: 
+indice onde sera adicionado, numero de elementos a serem removidos apartir do indice, numero a ser adicionado. 
+
+Sintaxe:
+	{nomeDaArray.splice(parametro1,parametro2,parametro3)}
+
+Exemplo 1:
+	let listaDeNumeros = [1,2,3,4,5,6,7,8]
+	listaDeInteiros.splice(8,0,10);
+	console.log(listaDeInteiros)
+
+	resultado:
+	[1,2,3,4,5,6,7,8,10]
+
+Exemplo 2
+	let listaDeNumeros = [1,2,3,4,5,6,7,8]
+	listaDeInteiros.splice(1,5);
+	console.log(listaDeInteiros)
+
+	resultado:
+	[1,7,8]
