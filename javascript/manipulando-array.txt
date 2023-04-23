@@ -1,4 +1,7 @@
-MANIPULANDO CONTEUDOS DE ARRAYS
+MANIPULANDO ARRAYS
+
+
+Adicionando:
 
 Método unshift()
 Para inserir um valor no inicio da array
@@ -14,7 +17,7 @@ Exemplo:
 	resultado:
 	[0,1,2,3,4,5,6,7,8]
 
-=============================================
+=======================
 
 Método splice();
 Altera o conteúdo de uma lista, adicionando novos elementos enquanto remove os antigos
@@ -32,10 +35,55 @@ Exemplo 1:
 	resultado:
 	[1,2,3,4,5,6,7,8,10]
 
-Exemplo 2
+Exemplo 2:
 	let listaDeNumeros = [1,2,3,4,5,6,7,8]
 	listaDeInteiros.splice(1,5);
 	console.log(listaDeInteiros)
 
 	resultado:
 	[1,7,8]
+
+=============================================
+
+Deletando:
+
+Método pop():
+remove o ultimo elemento de um arraye retorna aquele valor removido,
+chama-lo em um array vazio retorna undefined.
+
+Sintaxe:
+	{}
+
+=============================================
+
+Procurando:
+
+Método find()
+Retorna o valor do primeiro elemento da array que satisfazer a função de teste.
+caso contrario, retorna "undefined".
+
+Sintaxe:
+	{nomeDaArray}.find({funçãoDeTeste})
+
+Exemplo 1:
+	const array1 = [5, 12, 8, 130, 44];
+	const found = array1.find(element => element > 10);
+	
+	console.log(found);
+
+
+Exemplo 2:
+	Arrow function:
+
+	const inventory = [
+		{name: 'maças', quantity: 2},
+		{name: 'bananas', quantity: 0},
+		{name: 'cherries', quantity: 5}
+	];
+	const result = inventory.find( fruit => fruit.name === 'cherries' );
+	console.log(result)
+
+	resultado:
+	{ name: 'cherries', quantity: 5 }
+
+=======================
