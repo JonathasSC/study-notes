@@ -71,6 +71,7 @@ Exemplo 1:
 	
 	console.log(found);
 
+	resultado: 12
 
 Exemplo 2:
 	Arrow function:
@@ -87,3 +88,20 @@ Exemplo 2:
 	{ name: 'cherries', quantity: 5 }
 
 =======================
+
+Concatenando arrays:
+
+Método concat()
+Retorna uma array única com duas arrays concatenadas.
+
+Sintaxe:
+	{NomeDaArray2}.concat(nomeDaArray2)
+
+Exemplo:
+	const array1 = [5, 12, 8, 130, 44];
+	const array2 = [3, 15, 6, 10, 4];
+	
+	console.log(arraysConcatenadas);
+
+	resultado:
+	[5, 12, 8, 130, 44, 3, 15, 6, 10, 4]
