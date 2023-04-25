@@ -105,3 +105,23 @@ Exemplo:
 
 	resultado:
 	[5, 12, 8, 130, 44, 3, 15, 6, 10, 4]
+
+=======================
+
+Dividindo arrays:
+
+Método slice()
+Recebe dois valores de indices, o primeiro é referente ao ponto inicial onde será dividido 
+a array, o segundo é referente o ponto final onde será dividido a array, e retorna a fatia que foi cortada.
+
+Sintaxe:
+	{NomeDaArray}.slice(indice1, indice2)
+
+Exemplo:
+	const array = [1,2,3,4,5,6];
+	const cortado = array.slice(0,3);
+	
+	console.log(cortado);
+
+	resultado:
+		const array1 = [1,2,3];
