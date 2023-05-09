@@ -1,0 +1,23 @@
+O que é? 
+
+Mixins é um recurso que permite reutilizar trechos de estilizaçao
+em diferentes momentos do desenvolvimento do projeto.
+
+Assemelha-se com uma função de linguagens de programação, porém de forma limitada ao contexto
+de estilização e recebendo parametros condizentes aos atributos.
+
+Por exemplo:
+
+@mixin rounded-border($radius) {
+  border-radius: $radius;
+}
+
+.box {
+  @include rounded-border(10px);
+}
+
+No exemplo acima ele criou um mixin chamado "rounded-border" que recebe um parametro do tamanho do
+raio que o border-radius vai receber
+
+Com isso, posso incluir o mixin dentro de outro elemento e passar o parametro desejavel
+sem precisar digitar border-radius.
