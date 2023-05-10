@@ -1,0 +1,20 @@
+É um recurso que permite selecionar elementos com base no posicionamento referente ao seu escopo.
+
+Assim:
+
+Documento HTML:
+
+<header class="header">
+	<a href class="header__brand">YourGallery</a>
+
+---
+
+Documento SASS:
+
+.header
+	props..
+	&__brand
+		props...
+
+veja que eu não preciso escrever o identificador completo "header__brand" 
+Já está claro que se trata desse elemento pois está dentro do escopo de .header
