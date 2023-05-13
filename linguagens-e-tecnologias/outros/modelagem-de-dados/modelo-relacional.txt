@@ -1,0 +1,14 @@
+Modelo Relacional
+
+- Esboçados por E. F. Codd em um artigo publicado em junho de 1970,
+intitulado "O modelo relacional de dados para grandes bancos de dados compartilhados";
+
+- Antes disso eram usados modelos como o hierárquico e de rede;
+
+- No modelo relacional os dados são organizados em coleções de tabelas bidimensionais;
+
+- Essas tabelas são chamadas de "relações".
+
+- Relação é uma forma de se organizar os dados em linhas e colunas;
+
+- Baseado em lógica e teoria de conjuntos;

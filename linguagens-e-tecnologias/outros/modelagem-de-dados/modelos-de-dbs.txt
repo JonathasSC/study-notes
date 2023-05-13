@@ -20,7 +20,7 @@ Alguns modelos de banco de dados, comumente usados durante a historia:
 	- Não há restrição hierárquica;
 
 
-- Modelo relacional:
+- Modelo relacional: 
 
 	- Separamos os dados em entidades, que contém atributos.
 
