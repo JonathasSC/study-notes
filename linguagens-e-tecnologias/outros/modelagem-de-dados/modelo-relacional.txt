@@ -1,32 +1,42 @@
 Modelo Relacional - Detalhes:
 
-- Esboçados por E. F. Codd em um artigo publicado em junho de 1970,
-intitulado "O modelo relacional de dados para grandes bancos de dados compartilhados";
+	- Esboçados por E. F. Codd em um artigo publicado em junho de 1970,
+	intitulado "O modelo relacional de dados para grandes bancos de dados compartilhados";
 
-- Antes disso eram usados modelos como o hierárquico e de rede;
+	- Antes disso eram usados modelos como o hierárquico e de rede;
 
-- No modelo relacional os dados são organizados em coleções de tabelas bidimensionais;
+	- No modelo relacional os dados são organizados em coleções de tabelas bidimensionais;
 
-- Essas tabelas são chamadas de "relações".
+	- Essas tabelas são chamadas de "relações".
 
-- Relação é uma forma de se organizar os dados em linhas e colunas;
+	- Relação é uma forma de se organizar os dados em linhas e colunas;
 
-- Baseado em lógica e teoria de conjuntos;
+	- Baseado em lógica e teoria de conjuntos;
 
 
-Componentes do modelo relacional:
+	Componentes do modelo relacional:
 
-O modelo relacional é composto, básicamente, por:
+		O modelo relacional é composto, básicamente, por:
 
-- Coleções de objetos ou relações que armazenam os dados;
+		- Coleções de objetos ou relações que armazenam os dados;
 
-- Um conjunto de operadores que agem nas relações, produzindo outras relações;
+		- Um conjunto de operadores que agem nas relações, produzindo outras relações;
 
-- Integridade de dados, para precisão e consistência;
+		- Integridade de dados, para precisão e consistência;
 
 
 Banco de Dados Relacional:
 
-- Ë uma coleção de relações, que são tabelas bidimensionais onde os dados são armazenados;
+	- Ë uma coleção de relações, que são tabelas bidimensionais onde os dados são armazenados;
 
-- Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja, para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses clientes, como dados pessoais, dados de compra, crédito e outras;
+	- Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja, para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses clientes, como dados pessoais, dados de compra, crédito e outras;
+
+	Componentes de um Banco de Dados Relacional:
+
+		- Tabela:
+			Estrutura básica de armazenamento no SGBDR.
+			Armazena todos os dados necessários sobre algo no mundo real,
+			como clientes, pedidos ou produtos.
+
+		- Tupla:
+			Também chamado de linha ou registro, representa todos os dados requeridos por uma determinada ocorrência de entidade em particular. Por exemplo, os dados de um cliente especifico, Cada linha em uma tabelas deve ser identificada por uma chave primária, de modo de não haver duplicação de registro.
