@@ -1,0 +1,6 @@
+- São dados que conseguimos achar sobre os dados já captados.
+
+- Permite efetuar a representação e identificação dos dados
+Garantindo consistência e persitência.
+
+- Os metadados são mantidos no dicionario de dados, ou em um catalogo.

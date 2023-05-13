@@ -1,0 +1,10 @@
+Banco de dados são usados em aplicações em diversas áreas, como:
+
+- Sistemas bancários;
+- Reservas em hotéis;
+- Controle de estoque em supermercados;
+- E-commerce;
+- Receita Federal;
+- Youtube;
+
+E muito mais.
