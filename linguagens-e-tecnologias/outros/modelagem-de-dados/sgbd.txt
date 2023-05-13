@@ -1,7 +1,9 @@
 SGBD ( Sistema de gerenciamento de banco de dado )
 
 - Um sgbd é uma coleção de softwares que permite aos usuários criarem e manterem um ou mais banco de dados;
+
 - São usados nas tarefas de definição, construção, manipulação e compartilhamento de banco de dados entre aplicações e usuários.
+
 - Permitem proteger o banco de dados e mantê-lo ao longo do tempo.
 
 Exemplo de SGBDs:

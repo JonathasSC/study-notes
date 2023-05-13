@@ -6,6 +6,7 @@ para que seja possivel de forma virtual a organização e a melhor utilização
 dos dados.
 
 Um banco de dados é composto por diversões objetos, como:
+
 - Tabelas;
 - esquemas; 
 - visões;
