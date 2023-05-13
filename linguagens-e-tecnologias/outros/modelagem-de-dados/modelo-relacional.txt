@@ -1,4 +1,4 @@
-Modelo Relacional
+Modelo Relacional - Detalhes:
 
 - Esboçados por E. F. Codd em um artigo publicado em junho de 1970,
 intitulado "O modelo relacional de dados para grandes bancos de dados compartilhados";
@@ -12,3 +12,21 @@ intitulado "O modelo relacional de dados para grandes bancos de dados compartilh
 - Relação é uma forma de se organizar os dados em linhas e colunas;
 
 - Baseado em lógica e teoria de conjuntos;
+
+
+Componentes do modelo relacional:
+
+O modelo relacional é composto, básicamente, por:
+
+- Coleções de objetos ou relações que armazenam os dados;
+
+- Um conjunto de operadores que agem nas relações, produzindo outras relações;
+
+- Integridade de dados, para precisão e consistência;
+
+
+Banco de Dados Relacional:
+
+- Ë uma coleção de relações, que são tabelas bidimensionais onde os dados são armazenados;
+
+- Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja, para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses clientes, como dados pessoais, dados de compra, crédito e outras;
