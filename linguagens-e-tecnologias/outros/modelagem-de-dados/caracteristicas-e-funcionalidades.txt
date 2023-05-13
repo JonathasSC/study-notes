@@ -1,0 +1,20 @@
+Caracteristicas e Funcionalidades:'
+
+- Autenticação e autorizaçao de acesso;
+	Para que apenas os usuários permitidos tenham acesso aos dados;
+
+- Múltiplas Visões dos Bancos;
+	Exibir de formas diferentes os dados para os usuários;
+
+- Restrições de Integridade;
+	Permitir ou não o registro se uma informação desejada for satisfeita.
+
+- Controle de Concorrência;
+	Não permitir que mais de um usuário consiga modificar de forma simultanea,
+	gerando sobrescrição de dados:
+
+- Controle de Redundância;
+	Formas de evitar repetição e excesso de uso de recursos.
+
+- Backup e Restauração;
+	Salvamento de dados para evitar a perda.

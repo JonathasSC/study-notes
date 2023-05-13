@@ -1,0 +1,6 @@
+Sistema de banco de dados: 
+
+O sistema de banco de dados é o conjunto do:
+- SGBD;
+- Banco de Dados;
+- Aplicativo de Acesso;
