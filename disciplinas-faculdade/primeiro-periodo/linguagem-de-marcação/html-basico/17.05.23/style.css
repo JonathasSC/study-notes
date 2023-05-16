@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	font-weight: bold;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.area {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cubo {
+	height: 120px;
+	width: 120px;
+}
+
+.acima .esquerda {
+	background-color: #f03535;
+}
+
+.acima .direita {
+	background-color: rgb(240, 237, 53);
+}
+
+
+.abaixo .esquerda {
+	background-color: rgb(53, 240, 78);
+}
+
+.abaixo .direita {
+	background-color: rgb(53, 81, 240);
+}

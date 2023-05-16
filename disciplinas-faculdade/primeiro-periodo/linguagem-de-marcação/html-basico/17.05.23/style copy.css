@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	font-weight: bold;
+}
+
+.cubo {
+	height: 120px;
+	width: 120px;
+}
+
+.esquerda {
+	background-color: #f03535;
+}
+
+.direita {
+	background-color: rgb(240, 237, 53);
+}
+
+.baixo-esquerda {
+	background-color: rgb(53, 240, 78);
+}
+
+.baixo-direita {
+	position: absolute;
+	bottom: 0;
+	right: 100%;
+
+	background-color: rgb(53, 81, 240);
+}
