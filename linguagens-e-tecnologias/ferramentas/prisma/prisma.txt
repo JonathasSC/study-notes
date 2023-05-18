@@ -1,0 +1,5 @@
+O QUE É?
+
+Prisma é uma ferramenta que intercepta a comunicação do back-end e banco de dados
+Ele cria uma forma unificada do back-end acessar o banco de dados com uma linguagem 
+mais apropriada para desenvolvedores.

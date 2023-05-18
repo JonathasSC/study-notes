@@ -1,0 +1,1 @@
+ESLINT é uma ferramente de desenvolvimento voltada para padronização de projeto.

@@ -1,0 +1,3 @@
+O QUE É?
+
+Componentes são basicamente funções que retornam HTML

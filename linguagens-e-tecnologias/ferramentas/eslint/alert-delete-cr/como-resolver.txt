@@ -1,0 +1,23 @@
+Delete `␍`eslintprettier/prettier
+
+Esse alerta é causado quando o prettier ou ESlint identifica uma quebra de linha incosistente em seu código:
+Caso não exista essa incosistencia, siga esses passos:
+
+1. Instale o prettier no seu projeto:
+    
+    >>> npm i --save-dev prettier
+
+
+2. Crie um arquivo chamado .prettierrc na raiz do seu projeto:
+
+
+3. Coloque essa configuração dentro do .prettierrc:
+
+    {
+        "endOfLine": "auto"
+    }
+
+
+4. Execute o prettier no seu projeto novamente para formatar os arquivos:
+
+    >>> npx prettier --write .
