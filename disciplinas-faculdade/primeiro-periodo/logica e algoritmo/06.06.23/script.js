@@ -1,41 +1,32 @@
-function returnAmountToPay (hour, min){  
-    let secondHour = 2;
-    let thirdHour = 3;
-    let fifthHour = 5;
+function amountToPay (hour, min){  
+    let firstPeriod = 2, secondPeriod = 4, thirdPeriod = 5;
 
     let delay = hour - 4
+    let additionalValue = 2, firstValue = 8, secondValue = 8.5
 
-    let additionalValue = 2;
-    let firstToSecond = 8
-    let thirdToFourth = 8.5
-
-    if (hour <= secondHour){
+    if (hour <= firstPeriod){
         if (hour == 2 && min > 0){
-            return thirdToFourth
+            return secondValue
         } else {
-            return firstToSecond
+            return firstValue
         }
     }
 
-    if (hour >= thirdHour && hour < fifthHour){
-        if (hour == 4 && min > 0){
-            return thirdToFourth + additionalValue
+    else if (hour > firstPeriod && hour < thirdPeriod){
+        if (hour == secondPeriod && min > 0){
+            return secondValue + additionalValue
         } else {
-            return thirdToFourth
+            return secondValue
         }
     }
 
-    if (hour >= fifthHour){
+    else if(hour >= thirdPeriod){
         if (min > 0){
-            return delay * additionalValue + thirdToFourth + additionalValue
+            return delay * additionalValue + secondValue + additionalValue
         } else {
-            return delay * additionalValue + thirdToFourth
+            return delay * additionalValue + secondValue
         }
     }
 }
 
-console.log(returnAmountToPay(1,00)) // return 8
-console.log(returnAmountToPay(1,40)) // return 8
-console.log(returnAmountToPay(3,40)) // return 8.5
-console.log(returnAmountToPay(4,40)) // return 10.5
-console.log(returnAmountToPay(6,00)) // return 12.5
+console.log(amountToPay(1,00)) // return 8
