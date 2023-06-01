@@ -1,0 +1,10 @@
+Unsupported Media Type
+
+O erro 415 ocorre quando o servidor não consegue processar o tipo de mídia da solicitação. No seu código, isso pode acontecer se o cliente estiver enviando um tipo de mídia que o servidor não está configurado para lidar.
+
+Para resolver, confira se o header está correto
+com Content-Type definido como "application/json" 
+
+Caso você esteja usando PostMan, abra a aba "headers" ao lado de "body"
+
+E defina a Key como Content-Type e o value como application/json.
