@@ -1,32 +1,73 @@
-function amountToPay (hour, min){  
-    let firstPeriod = 2, secondPeriod = 4, thirdPeriod = 5;
+function amountToPay (entrada,saida){
 
-    let delay = hour - 4
-    let additionalValue = 2, firstValue = 8, secondValue = 8.5
+    let hora_entrada = entrada[0]
+    let min_entrada = entrada[1]
+    let hora_saida = saida[0]
+    let min_saida = saida[1]
 
-    if (hour <= firstPeriod){
-        if (hour == 2 && min > 0){
-            return secondValue
+    let minutos_entrada = hora_entrada * 60 + min_entrada
+    let minutos_saida = hora_saida * 60 + min_saida
+
+    let minutos_total = minutos_saida - minutos_entrada
+
+    if (minutos_total < 00){
+        let minutos_decimal = Math.abs(minutos_total) / 60 - 24
+        
+        formatado = new Date(Math.abs(minutos_decimal)
+        * 3600 * 1000).toISOString().substring(11, 16)
+
+    } else {
+        let minutos_decimal = Math.abs(minutos_total) / 60
+        
+        formatado = new Date(Math.abs(minutos_decimal) 
+        * 3600 * 1000).toISOString().substring(11, 16)
+    }
+
+    let hora = parseInt(formatado.substring(0,2))
+    let min = parseInt(formatado.substring(3,5))
+
+    if (hora <= 02){
+        if (hora == 02 && min > 00){
+            console.log(`Você passou ${hora}h${min}m`)
+            console.log(`Valor a pagar: R$ 8.50`)
         } else {
-            return firstValue
+            console.log(`Você passou ${hora}h${min}m`)
+            console.log(`Valor a pagar: R$ 8.00`)
+        }
+    }
+    if (hora > 02 && hora <= 04){
+        if (hora == 04 && min > 00){
+            console.log(`Você passou ${hora}h${min}m`)
+            console.log(`Valor a pagar: R$ 10.50`)
+        } else {
+            console.log(`Você passou ${hora}h${min}m`)
+            console.log(`Valor a pagar: R$ 8.50`)
         }
     }
 
-    else if (hour > firstPeriod && hour < thirdPeriod){
-        if (hour == secondPeriod && min > 0){
-            return secondValue + additionalValue
+    if (hora >= 5){
+        if (hora == 05 && min == 00){
+            console.log(`Você passou ${hora}h${min}m`)
+            console.log(`Valor a pagar: R$ 10.50`)
         } else {
-            return secondValue
-        }
-    }
 
-    else if(hour >= thirdPeriod){
-        if (min > 0){
-            return delay * additionalValue + secondValue + additionalValue
-        } else {
-            return delay * additionalValue + secondValue
+            let tempo_extra = hora - 4
+
+            if (min > 00){
+                let valor_extra = tempo_extra * 2 + 2
+
+                console.log(`Você passou ${hora}h${min}m`)
+                console.log(`Valor a pagar: R$ ${8.5 + valor_extra}`)
+            } else {
+                let valor_extra = tempo_extra * 2
+                
+                console.log(`Você passou ${hora}h${min}m`)
+                console.log(`Valor a pagar: R$ ${8.5 + valor_extra}`)
+            }
         }
     }
 }
 
-console.log(amountToPay(1,00)) // return 8
+amountToPay([00,50],[01,30]) // 8.00
+amountToPay([23,50],[3,30]) // 8.50
+amountToPay([23,50],[09,30]) // 20.5
