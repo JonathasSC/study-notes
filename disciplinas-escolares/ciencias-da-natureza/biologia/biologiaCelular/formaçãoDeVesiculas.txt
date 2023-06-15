@@ -1,0 +1,12 @@
+FORMAÇÃO DE VESICULAS:
+
+Etapa fundamental que ocorre em várias etapas e desempenha diferentes funções
+sendo duas principais:
+
+* ENDOCITOSE:
+    Processo pelo qual a célula engloba particulas ou moléculas do meio extracelular
+    e as incopora em vesículas membranosas, sendo três tipos principais:
+
+    -> Fagocitose;
+    -> Pinocitose;
+    -> Endocitose por receptores;
