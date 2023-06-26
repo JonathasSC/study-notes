@@ -1,0 +1,26 @@
+Complexo de golgi
+
+Estrutura celular presente na MAIORIA das células eucaríoticas.
+
+* FUNÇÃO:
+    Classificar, modificar e transportar as proteínas e lipídios produzidos no réticulo endoplasmatico rugoso (RER).
+
+    Tendo papel crucial na manutenção da integridade e funcionalidade da célula.
+
+
+    --> Formação de vesículas: 
+        -> Secreção celular:
+            - Lisossomos:
+                > Digestão autofagica:
+                Alimentação de algo interno.
+
+                > Digestão heterofágica:
+                Alimentação de algo externo.
+
+            Peroxissomos:
+                > Oxidante de substancias nocivas como álcool e água oxigeda
+
+            Acrossomo:
+                > É uma vesicula com enzima digestiva contida nos esparmatozoides
+                que auxilia a penetraçao do ovulo.
+
