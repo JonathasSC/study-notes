@@ -1,0 +1,49 @@
+1. Instale o prettier e o tailwindcss
+como ferramenta de desenvolvimento:
+
+>>> npm install prettier --save-dev
+>>> npm install tailwindcss --save-dev
+
+=========================================
+
+2. Instale o prettier-plugin-tailwindcss
+como ferramenta de desenvolvimento:
+
+>>> npm install prettier-plugin-tailwindcss --save-dev
+
+=========================================
+
+3. Crie um arquivo de configuração ".prettierrc"
+na raiz do projeto e adicione as seguintes configurações"
+
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindcss": {
+    "config": "./tailwind.config.js"
+  }
+}
+
+No "config", coloque o caminho do seu arquivo
+de configuração tailwind.config.js
+
+=========================================
+
+4. Execute o comando para formatar:
+
+>>> npx prettier --write .
+
+=========================================
+
+5. Crie um script personalizado em package.json
+para facilitar execução:
+
+"scripts": {
+    "format": "prettier --write ."
+}
+
+=========================================
+
+6. Basta executar esse script sempre que desejar
+formatar os arquivos:
+
+>>> npm run format
