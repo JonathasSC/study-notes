@@ -1,18 +1,27 @@
 #include <stdio.h>
 
-int main()
-{   
-    int sum = 0;
+int calcularPares(int num1, int num2){
     int count = 0;
+    int sum = 0;
 
-    for (int number = 13; number <= 73; number++ ){
-        if ( number % 2 == 0 ){
-            sum += number;
-            count++;
-        }
+    for (int num = num1; num <= num2; num++){
+        num % 2 == 0 ? sum += num, count++ : sum;
     }
 
-    printf("Media dos pares entre 13 e 73: %i", sum / count);
+    return sum / count;
+}
 
+int main()
+{
+    int num1;
+    int num2;
+
+    printf("Digite um valor: ");
+    scanf("%i", &num1);
+
+    printf("Digite um valor: ");
+    scanf("%i", &num2);
+
+    printf("Media dos pares entre %i e %i: %i",num1, num2, calcularPares(num1, num2));
     return 0;
 }
