@@ -30,7 +30,7 @@ function amountToPay (entrada,saida){
         valor = 8.0;
     }
 
-    if (hora == 2 && min > 00 || hora > 3 || hora == 3 && min > 0){
+    if (hora == 2 && min > 0 || hora > 3 || hora == 3 && min > 0){
         valor = 8.5;
     }
 
@@ -42,6 +42,6 @@ function amountToPay (entrada,saida){
     console.log(`Você passou ${hora}h${min}m\nValor: R$ ${valor}`)
 }
 
-amountToPay([00,50],[01,30])
+amountToPay([0,50],[1,30])
 amountToPay([12,50],[15,30])
 amountToPay([12,50],[19,30])

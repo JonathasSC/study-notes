@@ -30,3 +30,4 @@ function returnValueAndTaxes(valor_produto,destino){
 }
 
 returnValueAndTaxes("10","PB") // return 10.8
+
