@@ -1,0 +1,56 @@
+#1 Configuração global
+
+Use os seguintes comando:
+
+>>> git config --global user.email "<seu email do github>"
+>>> git config --global user.name "<seu nome>"
+
+
+#2 Inicialize um repositorio local para testar:
+
+>>> mkdir teste
+>>> cd teste
+>>> git init 
+
+
+#3 Crie um arquivo simples, vamos criar um de texto
+e escreva algo dentro dele:
+
+>>> nano file.txt 
+
+
+#4 Verifique se o arquivo está sendo rastreado pelo git:
+
+>>> git status
+
+
+#5 Crie um repositorio remoto direto no github
+
+- Vá no seu github e procure a aba "repositorios"
+- Clique em "novo repositorio"
+- Coloque o mesmo nome do seu repositorio local "teste"
+- Ao criar, copie a URL do repositorio remoto
+
+#6 Volte ao terminal para finalizar
+
+Execute os comandos:
+
+>>> git add . 
+>>> git commit -m "first commit"
+
+
+#7 Conecte seu repositorior remoto ao seu local:
+
+Vamos utilizar a URL que copiamos anteriormente:
+
+>>> git remote add <URL do repositorio> 
+
+
+#8 Vamos dar acesso ao github para seu git e fazer o push:
+
+>>> git push --set-upstream origin main
+
+Após isso deve abrir uma tela de login para colocar as credenciais.
+
+Agora confira em seu github se o repositorio remoto contem o mesmo 
+arquivo teste que você colocou.
