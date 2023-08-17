@@ -1,3 +1,0 @@
-Modificadores de classe e suas caracteristicas:
-
-default:

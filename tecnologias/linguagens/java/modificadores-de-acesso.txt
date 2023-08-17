@@ -1,0 +1,63 @@
+MODIFICADORES DE ACESSO E SUAS DIFERENÇAS:
+
+Modificadores são palavras-chave que são usadas para modificar a definição de métodos
+e váriaveis e outros elementos.
+
+Eles afetam a visibilidade e acessibilidade desses elementos dentro de
+uma classe ou em todo o programa.
+
+Os modificadores desempenham um papel fundamental na programação orientada a objetos 
+e na criação de estruturas de código bem organizdas e encapsuladas.
+
+
+Os modificadores de acesso são:
+
+  - DEFAULT(não especificado):
+
+    O elemento é acessivel somente dentro do mesmo pacote.
+
+    É o modificador padrão quando nenhum é definido.
+    Permite o acesso do método para apenas os
+
+    ele não pode ser definido pois trata-se de um comportamento
+    ocorrido pela ausencia de outro modificador
+
+    Sintaxe:
+
+      void nomeDoMetodo(){
+        ...
+      }
+
+    
+  - PUBLIC:
+
+    O elemento é acessivel a partir de qualquer classe.
+
+    Sintaxe:
+
+      public void nomeDoMetodo(){
+        ...
+      }
+
+
+  - PROTECTED: 
+
+    O membro é acessivel somente na mesma classe, 
+    em subclasses e no mesmo pacote.
+
+
+    Sintaxe:
+
+      protected void nomeDoMetodo(){
+        ...
+      }
+  
+  - PRIVATE:
+
+    O membro é acessivel somente dentro da mesma classe
+
+    Sintaxe:
+
+      private void nomeDoMetodo(){
+        ...
+      }
