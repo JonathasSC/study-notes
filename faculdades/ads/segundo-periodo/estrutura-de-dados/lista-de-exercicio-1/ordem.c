@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int inputInt(char string[])
 {
@@ -34,9 +33,35 @@ int main()
     int medio;
     int maior;
 
-    int num1 = inputInt("Digite o primeiro numero:");
-    int num2 = inputInt("Digite o segundo numero:");
-    int num3 = inputInt("Digite o terceira numero:");
+    for (int count = 0; count != 3; count++)
+    {
+        int num = inputInt("Digite um numero:");
+        if (count == 0)
+        {
+            maior = num;
+            medio = num;
+            menor = num;
+        }
+        else
+        {
+            if (num > maior)
+            {
+                medio = maior;
+                maior = num;
+            }
+            else if (num < menor)
+            {
+                medio = menor;
+                menor = num;
+            }
+            else if (num > menor && num < maior)
+            {
+                medio = num;
+            }
+        }
+    }
+
+    printf("Os numeros em ordem ficam: %d, %d, %d", menor, medio, maior);
 
     return 0;
 }
