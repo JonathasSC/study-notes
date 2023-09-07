@@ -18,15 +18,6 @@ char inputString(char string[])
     return response;
 }
 
-float inputFloat(char string[])
-{
-    float response;
-    printf("%s ", string);
-    scanf("%f", &response);
-
-    return response;
-}
-
 int main()
 {
     int lado1 = inputInt("Digite o primeiro lado:");

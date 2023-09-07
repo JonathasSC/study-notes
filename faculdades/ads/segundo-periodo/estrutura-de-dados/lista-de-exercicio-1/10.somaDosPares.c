@@ -9,24 +9,6 @@ int inputInt(char string[])
     return response;
 }
 
-char inputString(char string[])
-{
-    char response;
-    printf("%s ", string);
-    scanf("%s", &response);
-
-    return response;
-}
-
-float inputFloat(char string[])
-{
-    float response;
-    printf("%s ", string);
-    scanf("%f", &response);
-
-    return response;
-}
-
 int main()
 {
     int sum = 0;

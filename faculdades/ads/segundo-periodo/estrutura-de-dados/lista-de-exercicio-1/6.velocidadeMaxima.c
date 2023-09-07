@@ -1,24 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-int inputInt(char string[])
-{
-    int response;
-    printf("%s ", string);
-    scanf("%i", &response);
-
-    return response;
-}
-
-char inputString(char string[])
-{
-    char response;
-    printf("%s ", string);
-    scanf("%s", &response);
-
-    return response;
-}
-
 float inputFloat(char string[])
 {
     float response;
