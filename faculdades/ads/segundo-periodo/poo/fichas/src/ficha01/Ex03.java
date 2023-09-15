@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ComissaoVendedor03 {
-    public ComissaoVendedor03() {
+public class Ex03 {
+    public Ex03() {
         Scanner input = new Scanner(System.in);
 
         Map<Integer, String> employeesList = new HashMap<>();

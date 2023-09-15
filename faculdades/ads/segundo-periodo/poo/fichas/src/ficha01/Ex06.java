@@ -2,8 +2,8 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class CelsiusEmFahrenheit06 {
-    public CelsiusEmFahrenheit06() {
+public class Ex06 {
+    public Ex06() {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite uma temperatura em Celsius: ");
 

@@ -2,8 +2,8 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class CalculaCombustivel05 {
-    public CalculaCombustivel05() {
+public class Ex05 {
+    public Ex05() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Rendimento em KM/L: \n");

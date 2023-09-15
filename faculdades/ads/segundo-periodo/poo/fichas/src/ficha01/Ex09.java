@@ -2,8 +2,8 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class ConverterEmDias09 {
-    public ConverterEmDias09() {
+public class Ex09 {
+    public Ex09() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Anos: ");

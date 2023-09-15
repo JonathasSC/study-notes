@@ -2,9 +2,9 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class CalculoDistribuitivo04 {
+public class Ex04 {
 
-    public CalculoDistribuitivo04() {
+    public Ex04() {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um valor para A: ");
         int A = input.nextInt();

@@ -2,10 +2,10 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class EstoqueMedio01 {
+public class Ex01 {
     Scanner input = new Scanner(System.in);
 
-    public EstoqueMedio01() {
+    public Ex01() {
 
         System.out.println("Digite a quantidade minima: ");
         int qnt_minima = input.nextInt();

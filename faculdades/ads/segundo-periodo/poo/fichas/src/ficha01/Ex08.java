@@ -2,8 +2,8 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class VolumeLata08 {
-    public VolumeLata08() {
+public class Ex08 {
+    public Ex08() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Digite o raio da lata: ");

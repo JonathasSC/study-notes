@@ -2,8 +2,8 @@ package ficha01;
 
 import java.util.Scanner;
 
-public class ConverterMoedas02 {
-    public ConverterMoedas02() {
+public class Ex02 {
+    public Ex02() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the dollar rate: ");
         float dollar = input.nextFloat();
