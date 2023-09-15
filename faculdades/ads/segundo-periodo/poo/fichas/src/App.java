@@ -20,6 +20,18 @@ import ficha02.Ex22;
 import ficha02.Ex23;
 import ficha02.Ex24;
 import ficha02.Ex25;
+import ficha03.Ex26;
+import ficha03.Ex27;
+import ficha03.Ex28;
+import ficha03.Ex29;
+import ficha03.Ex30;
+import ficha03.Ex31;
+import ficha03.Ex32;
+import ficha03.Ex33;
+import ficha03.Ex34;
+import ficha03.Ex35;
+import ficha03.Ex36;
+import ficha03.Ex44;
 import ficha02.Ex12;
 import ficha02.Ex13;
 import ficha02.Ex11;
@@ -157,90 +169,58 @@ public class App {
                 new Ex25();
                 break;
 
+            case 26:
+                new Ex26();
+                break;
+
+            case 27:
+                new Ex27();
+                break;
+
+            case 28:
+                new Ex28();
+                break;
+
+            case 29:
+                new Ex29();
+                break;
+
+            case 30:
+                new Ex30();
+                break;
+
+            case 31:
+                new Ex31();
+                break;
+
+            case 32:
+                new Ex32();
+                break;
+
+            case 33:
+                new Ex33();
+                break;
+
+            case 34:
+                new Ex34();
+                break;
+
+            case 35:
+                new Ex35();
+                break;
+
+            case 36:
+                new Ex36();
+                break;
+
+            case 44:
+                new Ex44();
+                break;
+
             default:
                 System.out.println("Questão inexistente!");
                 break;
         }
-
-        // if (choice == 1) {
-        // new Ex01();
-        // }
-
-        // if (choice == 2) {
-        // new Ex02();
-        // }
-
-        // if (choice == 3) {
-        // new Ex03();
-        // }
-
-        // if (choice == 4) {
-        // new Ex04();
-        // }
-
-        // if (choice == 5) {
-        // new Ex05();
-        // }
-
-        // if (choice == 6) {
-        // new Ex06();
-        // }
-
-        // if (choice == 7) {
-        // new Ex07();
-        // }
-
-        // if (choice == 8) {
-        // new Ex08();
-        // }
-
-        // if (choice == 9) {
-        // new Ex09();
-        // }
-
-        // if (choice == 11) {
-        // new Ex11();
-        // }
-
-        // if (choice == 12) {
-        // new Ex12();
-        // }
-
-        // if (choice == 13) {
-        // new Ex13();
-        // }
-
-        // if (choice == 14) {
-        // new Ex14();
-        // }
-
-        // if (choice == 15) {
-        // new Ex15();
-        // }
-
-        // if (choice == 16) {
-        // new Ex16();
-        // }
-
-        // if (choice == 17) {
-        // new Ex17();
-        // }
-
-        // if (choice == 18) {
-        // new Ex18();
-        // }
-
-        // if (choice == 19) {
-        // new Ex19();
-        // }
-
-        // if (choice == 20) {
-        // new Ex20();
-        // }
-
-        // if (choice == 21) {
-        // new Ex21();
-        // }
 
         input.close();
     }
