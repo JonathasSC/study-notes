@@ -31,6 +31,12 @@ import ficha03.Ex33;
 import ficha03.Ex34;
 import ficha03.Ex35;
 import ficha03.Ex36;
+import ficha03.Ex37;
+import ficha03.Ex38;
+import ficha03.Ex39;
+import ficha03.Ex41;
+import ficha03.Ex42;
+import ficha03.Ex43;
 import ficha03.Ex44;
 import ficha02.Ex12;
 import ficha02.Ex13;
@@ -211,6 +217,34 @@ public class App {
 
             case 36:
                 new Ex36();
+                break;
+
+            case 37:
+                new Ex37();
+                break;
+
+            case 38:
+                new Ex38();
+                break;
+
+            case 39:
+                new Ex39();
+                break;
+
+            case 40:
+                new Ex41();
+                break;
+
+            case 41:
+                new Ex42();
+                break;
+
+            case 42:
+                new Ex42();
+                break;
+
+            case 43:
+                new Ex43();
                 break;
 
             case 44:
