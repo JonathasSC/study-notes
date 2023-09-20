@@ -38,6 +38,12 @@ import ficha03.Ex41;
 import ficha03.Ex42;
 import ficha03.Ex43;
 import ficha03.Ex44;
+import ficha04.Ex45;
+import ficha04.Ex46;
+import ficha04.Ex47;
+import ficha04.Ex48;
+import ficha04.Ex49;
+import ficha04.Ex50;
 import ficha02.Ex12;
 import ficha02.Ex13;
 import ficha02.Ex11;
@@ -73,6 +79,24 @@ public class App {
         System.out.println("23 - Escolha o calculo");
         System.out.println("24 - Verifique o numero");
         System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("25 - Peso ideal");
+        System.out.println("45 - Tamanho da palavra");
 
         System.out.print(">>> ");
 
@@ -249,6 +273,30 @@ public class App {
 
             case 44:
                 new Ex44();
+                break;
+
+            case 45:
+                new Ex45();
+                break;
+
+            case 46:
+                new Ex46();
+                break;
+
+            case 47:
+                new Ex47();
+                break;
+
+            case 48:
+                new Ex48();
+                break;
+
+            case 49:
+                new Ex49();
+                break;
+
+            case 50:
+                new Ex50();
                 break;
 
             default:
